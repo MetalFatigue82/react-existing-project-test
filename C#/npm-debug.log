@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune C:\projects\react-add-existing-project\C#
+21 silly loadIdealTree Finishing
+22 silly currentTree C:\projects\react-add-existing-project\C#
+23 silly idealTree C:\projects\react-add-existing-project\C#
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 verbose stack Error: Invalid name: "C#"
+26 verbose stack     at ensureValidName (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\normalize-package-data\lib\fixer.js:331:15)
+26 verbose stack     at Object.module.exports.fixNameField (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\normalize-package-data\lib\fixer.js:210:5)
+26 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\normalize-package-data\lib\normalize.js:32:38
+26 verbose stack     at Array.forEach (native)
+26 verbose stack     at normalize (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\normalize-package-data\lib\normalize.js:31:15)
+26 verbose stack     at thenCheckTop (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\lib\install\validate-tree.js:58:3)
+26 verbose stack     at Array.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\slide\lib\bind-actor.js:15:8)
+26 verbose stack     at LOOP (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\slide\lib\chain.js:15:14)
+26 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\slide\lib\chain.js:18:7
+26 verbose stack     at thenValidateAllPeerDeps (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\lib\install\validate-tree.js:46:3)
+27 verbose cwd C:\projects\react-add-existing-project\C#
+28 error Windows_NT 10.0.10240
+29 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+30 error node v5.4.1
+31 error npm  v3.3.4
+32 error Invalid name: "C#"
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]

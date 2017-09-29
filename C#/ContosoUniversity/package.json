@@ -1,0 +1,26 @@
+{
+  "name": "contoso-university-react-extension",
+  "version": "1.0.0",
+  "description": "Adding react to a existing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "Pedro Costa",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.*",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
